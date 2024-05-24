@@ -9,13 +9,18 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background-color: var(--cor-fundo-roxo);
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
 
   .container {
     max-width: 1140px;
+    margin: auto;
+  }
+
+  .container-header {
+    max-width: 1800px;
     margin: auto;
   }
   
