@@ -1,16 +1,19 @@
 .home .full-screen {
-    padding: 50px 0;
+    background-color: tomato;
+    padding: 10px 0;
     min-height: 86vh;
+    max-width: 100%;
 }
 
 .home .texto-home {
-    letter-spacing: 2px;
+    background-color: yellow;
+    letter-spacing: 1px;
 }
 
 .home .texto-home, .home .img-home {
-    flex: 0 0 50%;
-    /* ocupa 50% do tamanho e não faz grow nem shrink */
-    max-width: 50%;
+    flex: 0 0 100%;
+    /*ocupa 50% do tamanho e não faz grow nem shrink*/
+    max-width: 100%;
     padding: 0 15px;
 }
 
@@ -41,14 +44,15 @@
 .home .texto-home p {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-grande);
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
 .home .texto-home h1 {
     font-family: var(--fonte-secundaria);
-    font-size: var(--fonte-gigante);
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 14rem;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .home .texto-home h2 {
